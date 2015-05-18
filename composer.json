@@ -1,0 +1,13 @@
+{
+    "name": "umpirsky/symfony-pizza-nis",
+    "require": {
+        "symfony/console": "~2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "umpirsky",
+            "email": "umpirsky@gmail.com"
+        }
+    ]
+}
