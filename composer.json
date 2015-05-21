@@ -1,13 +1,20 @@
 {
     "name": "umpirsky/symfony-pizza-nis",
-    "require": {
-        "symfony/console": "~2.6"
-    },
     "license": "MIT",
     "authors": [
         {
             "name": "umpirsky",
             "email": "umpirsky@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "symfony/console": "~2.6",
+        "symfony/process": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pizza\\": "src/Pizza/"
+        }
+    }
 }
